@@ -2,7 +2,7 @@
 Console desenvolvido para rastrear informações do IIS nos servidores. 
 
 # App.config
-Antes de execultar o console será necessário editar as chave abaixo.
+Antes de executar o console será necessário editar as chave abaixo.
 ```
 <ApplicationSettings>
   <add key="ServidorUm" value="10.4.253.235" />
