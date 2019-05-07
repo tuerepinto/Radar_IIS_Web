@@ -35,6 +35,9 @@
   <PropertyGroup>
     <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Chrisbanks2-Cold-Fusion-Hd-Radar.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.Web.Administration, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\IIS.Microsoft.Web.Administration.8.5.9600.17042\lib\Microsoft.Web.Administration.dll</HintPath>
@@ -122,7 +125,6 @@
   <ItemGroup>
     <Compile Include="Arquivo.cs" />
     <Compile Include="Conexao.cs" />
-    <Compile Include="IisVersaoAntiga.cs" />
     <Compile Include="IisVersaoNova.cs" />
     <Compile Include="IisWeb.cs" />
     <Compile Include="Model\ServidorIis.cs" />
@@ -138,6 +140,9 @@
       <SubType>Designer</SubType>
     </None>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Chrisbanks2-Cold-Fusion-Hd-Radar.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
